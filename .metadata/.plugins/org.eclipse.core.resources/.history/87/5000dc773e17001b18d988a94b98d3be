@@ -1,0 +1,22 @@
+package exception_handling_practice;
+
+public class main {
+	public static void main(String[] args) {
+		
+		
+		try {
+		int x = divide(6, 0);
+		System.out.println(x);
+		}
+		catch (ArithmeticException e) {
+			System.out.println("Can't divide by 0");
+			
+		}
+		
+	}
+
+	public static int divide(int a, int b) {
+
+		return a / b;
+	}
+}

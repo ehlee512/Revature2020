@@ -1,0 +1,14 @@
+package exception_handling_practice;
+
+public class main {
+	public static void main(String[] args) {
+		int x = divide(6, 0);
+		System.out.println(x);
+
+	}
+	
+	public static int divide(int a, int b) {
+		
+		return a/b;
+	}
+}

@@ -1,0 +1,24 @@
+package eg1;
+
+public class printClass {
+	
+	public static void taticOuterPrint() {
+		
+	}
+	
+	public void outerPrint() {
+	System.out.println("outerPrint");	
+		
+	}
+	
+	
+	
+	public class innnerPrint{
+		public void innerPrint(){
+			System.out.println("innerprint");
+		}
+		
+	}
+	
+	
+}

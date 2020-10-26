@@ -1,0 +1,35 @@
+package test;
+import numbers.addition;
+
+
+public class test {
+public static void main(String[] args) {
+	
+	System.out.print("kddaaad");
+	System.out.println("hsasdfasdfelllooooo");
+
+	sayHello();
+	
+	test a = new test();
+	a.saybye();
+	
+	sayHi();
+	
+	//addition c = new addition();
+	addition.fromOther();
+
+}
+
+
+	public static void sayHello() { 
+		System.out.println("from public static");
+	}
+	
+	public void saybye() {
+		System.out.println("from Non Static");
+	}
+	
+	static void sayHi() {
+		System.out.println("from static void ");
+	}
+}

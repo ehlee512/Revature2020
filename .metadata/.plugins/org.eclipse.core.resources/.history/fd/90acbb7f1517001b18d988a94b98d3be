@@ -1,0 +1,20 @@
+package string_buffer_practice;
+
+public class demo {
+	public static void main(String[] args) {
+	StringBuffer a = new StringBuffer("01234567890123456789");
+	StringBuffer b = new StringBuffer("abcdefghijklmnopqrstuvwxyz");
+	
+	a.append("abc").append("def     ").append("abc");
+	
+	System.out.println(a);
+	System.out.println(b);
+	
+	
+	a.reverse();
+//	a.insert(0, "1");
+//	System.out.println(a);	
+//	a.delete(0, 1);
+//	System.out.println(a);	
+	}
+}

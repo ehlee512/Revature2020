@@ -1,0 +1,30 @@
+package p1;
+
+import java.util.Arrays;
+
+public class checkPrimeNumber {
+	public static void main(String[] args) {
+
+		int num = 7;
+
+		int list[] = new int[100];
+		for (int x = 1; x < 100; x++)
+			list[x] = x;
+		System.out.println(Arrays.toString(list));
+//		
+		
+		
+		int count = 0;
+		for (int x = 1; x < (num + 1); x++) {
+			if ((num % x) == 0)
+				count++;
+		}
+		if (count == 2)
+			System.out.println(num + " is a prime number");
+		else
+			System.out.println("not a prime nubmer");
+
+
+	}
+
+}

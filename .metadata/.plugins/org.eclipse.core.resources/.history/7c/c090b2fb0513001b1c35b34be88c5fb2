@@ -1,0 +1,22 @@
+package eg1;
+
+public class operatorPractice {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		int c = 11;
+		int d = 24;
+		
+		System.out.print("a ="+a);
+		System.out.print("b ="+b);
+		System.out.print("c ="+c);
+		System.out.print("d ="+d);
+		
+		
+		System.out.println(a+b);
+		
+		
+		
+		
+	}
+}

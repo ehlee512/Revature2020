@@ -1,0 +1,26 @@
+package abstract_class_practice;
+
+public class example1 extends AbstractExample {
+
+	@Override
+	public void addNum() {
+		// TODO Auto-generated method stub
+		System.out.println("addNum method from examples 1");
+	}
+
+	@Override
+	public void deleteNum() {
+		// TODO Auto-generated method stub
+		System.out.println("deleteNum method from example 1");
+	}
+
+	@Override
+	public void deleteNum(int x, int y) {
+		System.out.println("deleteNum from example 1");
+		System.out.println("┌ deleteNum(x, y)");
+		System.out.println("│ x=" + x);
+		System.out.println("│ y=" + y);
+		System.out.println("└ x-y= " + (x - y));
+	}
+
+}

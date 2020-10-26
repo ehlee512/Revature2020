@@ -1,0 +1,29 @@
+package constructor_practice;
+
+public class main {
+	public static void main(String[] args) {
+		Menu waffle = new Menu("waffle", 5.99f, 500);
+		Menu coffee = new Menu("coffee", 2.99f, 10);
+		Menu donut = new Menu("donut", 0.99f, 250);
+		
+		waffle.print();
+		coffee.print();
+		donut.print();
+		
+		
+		System.out.println("Price update");
+		
+		waffle.setPrice(6.00f);
+		coffee.setPrice(7.00f);
+		donut.setPrice(0.01f);
+
+		
+		waffle.print();
+		coffee.print();
+		donut.print();
+		
+		
+		
+	}
+
+}

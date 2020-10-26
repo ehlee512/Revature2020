@@ -1,0 +1,7 @@
+package numbers;
+public class addition {
+	public void fromOther() {
+		System.out.println("wow");
+	}
+	
+}

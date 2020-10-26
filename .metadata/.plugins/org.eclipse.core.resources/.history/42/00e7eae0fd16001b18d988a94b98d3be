@@ -1,0 +1,14 @@
+package abstract_class_practice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AbstractExample eg1 = new example1();
+		eg1.addNum();
+		eg1.deleteNum();
+		eg1.deleteNum(4, 6); //overloading
+		
+	}
+
+}

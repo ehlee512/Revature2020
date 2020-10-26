@@ -1,0 +1,17 @@
+package eg1;
+
+import eg1.printClass.innerClass;
+
+public class main {
+	public static void main(String[] args) {
+		printClass a = new printClass();
+		a.print();
+
+		innerClass b = a.new innerClass(); // initializing inner class
+		b.innerPrint();
+
+		
+	
+	}
+
+}

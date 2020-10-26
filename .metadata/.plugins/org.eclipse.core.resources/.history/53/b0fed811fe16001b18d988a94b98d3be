@@ -1,0 +1,7 @@
+package abstract_class_practice;
+
+public abstract class AbstractExample {
+	public abstract void addNum();
+	public abstract void deleteNum();
+	public abstract void deleteNum(int x, int y);
+}

@@ -1,0 +1,10 @@
+package wrapper_class_practice;
+
+public class demo1 {
+	public static void main(String[] args) {
+		Integer a = 19.5;
+		System.out.println(a);
+		
+		
+	}
+}

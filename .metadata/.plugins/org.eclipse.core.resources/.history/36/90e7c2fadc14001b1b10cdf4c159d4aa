@@ -1,0 +1,15 @@
+package eg1;
+
+public class printClass {
+	void print() {
+		System.out.println("print default");
+	}
+
+	public class innerPrintClass {
+		public void innerPrint() {
+			System.out.println("inner print");
+		}
+
+	}
+
+}

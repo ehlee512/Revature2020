@@ -1,0 +1,13 @@
+package eg1;
+
+public class main {
+	public static void main(String[] args) {
+		System.out.println("lll");
+		printClass a = new printClass();
+		a.staticOuterPrint();
+		
+		
+		
+	}
+
+}

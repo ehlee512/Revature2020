@@ -1,0 +1,24 @@
+package test;
+
+public class test {
+public static void main(String[] args) {
+	
+	System.out.print("kddaaad");
+	System.out.println("hsasdfasdfelllooooo");
+
+	sayHello();
+	
+	test a = new test();
+	a.saybye();
+}
+
+
+	public static void sayHello() { 
+		System.out.println("from public static");
+	}
+	
+	public void saybye() {
+		System.out.println("from NoneStatic");
+	}
+	
+}

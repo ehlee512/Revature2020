@@ -1,0 +1,28 @@
+package eg1;
+
+public class main {
+
+	public static void main(String[] args) {
+		item a = new item();
+		a.setName("laptop");
+		a.setPrice(999.99);
+		a.setItemCode(53884L);
+
+//		
+//		
+//		System.out.println("item name: "+a.getName());
+//		System.out.println("item price: "+a.getPrice());
+//		System.out.println("item code: "+a.getItemCode());
+
+		Seller b = new Seller("walmart", 70297d);
+	
+		a.setSeller(b);
+
+
+		a.printItem();
+		
+		System.out.println( b.getZipcode());
+	
+	}
+
+}

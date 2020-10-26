@@ -1,0 +1,60 @@
+package eg1;
+
+public class item {
+	private String name;
+	private double price;
+	private long itemCode;
+	private Seller seller;
+	
+	public item() {
+	}
+	public item(String name, double price, long itemCode) {
+		this.name = name;
+		this.price= price;
+		this.itemCode=itemCode;
+		
+	}
+	public void setName(String name){
+		this.name = name;	
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public void setItemCode(double itemCode) {
+		this.itemCode = (long) itemCode;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public double getPrice() {
+		return price;
+	}
+
+	public long getItemCode() {
+		return itemCode;
+	}
+	
+	
+	
+	public Seller getSeller() {
+		return seller;
+		
+	}
+	
+	public void setSeller(Seller seller) {
+		this.seller = seller;
+	}
+	
+	
+	public void printItem() {
+		System.out.println("Item Code : "+itemCode);
+		System.out.println("Name : "+name);
+		if(seller!=null) {
+			System.out.println("Seller Details");
+			System.out.println("Seller Name : "+seller.getStore());
+			System.out.println("TeamName : "+seller.getZipcode());
+		}
+
+	}
+}

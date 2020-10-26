@@ -1,0 +1,10 @@
+package string_buffer_practice;
+
+public class demo {
+	public static void main(String[] args) {
+	StringBuffer a = new StringBuffer("01234567890123456789");
+	System.out.println(a);
+	a.append("test").append("ing ");
+	
+	}
+}

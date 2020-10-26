@@ -1,0 +1,22 @@
+package test;
+
+public class test {
+public static void main(String[] args) {
+	
+	System.out.print("kddaaad");
+	System.out.println("hsasdfasdfelllooooo");
+
+	sayHello();
+
+
+	}
+
+
+	public static void sayHello() {
+		
+		 System.out.println("from public static");
+		
+		
+	}
+	
+}

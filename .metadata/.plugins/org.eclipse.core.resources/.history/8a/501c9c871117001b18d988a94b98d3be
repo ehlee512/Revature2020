@@ -1,0 +1,21 @@
+package p1;
+
+public class checkPrimeNumber {
+	public static void main(String[] args) {
+		int num = 4-;
+
+		int res;
+
+		int count = 0;
+		for (int x = 1; x < (num + 1); x++) {
+			res = num % x;
+			if (res == 0)
+				count++;
+		}
+		if (count == 2)
+			System.out.println(num + " is a prime number");
+		else
+			System.out.println("not a prime number");
+	}
+
+}

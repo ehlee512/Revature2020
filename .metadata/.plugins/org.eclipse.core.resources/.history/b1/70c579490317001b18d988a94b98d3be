@@ -1,0 +1,37 @@
+package p1;
+
+import java.util.Arrays;
+
+public class array {
+	public static void main(String[] args) {
+	
+	int arraySize = 2;
+		
+		int a[] = new int[arraySize];
+//
+//		System.out.println(a[0]);
+//		System.out.println(a[1]);
+//		System.out.println(a[3]);
+
+		// for random number generator
+		int min = 0;
+		int max = 100;
+
+		for (int x = 0; x < a.length; x++)
+			a[x] = (int) (Math.random() * (max - min + 1) + min);
+
+		System.out.println();
+
+		for (int x = 0; x < a.length; x++)
+			System.out.print(a[x] + " ");
+		System.out.println();
+
+		System.out.println("------------------------------------------");
+		for (int x : a) {
+			System.out.println(x);
+		}
+		System.out.println(Arrays.toString(a));
+
+	}
+
+}

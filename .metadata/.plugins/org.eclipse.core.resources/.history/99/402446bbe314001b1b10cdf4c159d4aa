@@ -1,0 +1,16 @@
+package eg1;
+
+public class printClass {
+	void print() {
+		System.out.println("print default");
+	}
+
+	// inner classes
+	public class innerClass {
+		public void innerPrint() {
+			System.out.println("inner print");
+		}
+
+	}
+
+}

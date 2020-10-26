@@ -1,0 +1,31 @@
+package eg1;
+
+public class operatorPractice {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 10;
+		int c = 11;
+		int d = 24;
+		
+		System.out.println("a ="+a);
+		System.out.println("b ="+b);
+		System.out.println("c ="+c);
+		System.out.println("d ="+d);
+		
+		
+		System.out.println("remainder: " + b%c);
+		
+		
+		
+		if (a == b)
+		{
+			System.out.println("a and b are equal");
+		}
+		else
+		{
+			System.out.println("a and b are not equal");
+		}
+		
+		
+	}
+}

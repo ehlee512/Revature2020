@@ -1,0 +1,43 @@
+package eg1;
+
+public class item {
+	private String name;
+	private double price;
+	private long itemCode;
+	private Seller seller;
+	
+	public item() {
+	}
+	public item(String name, double price, long itemCode) {
+		this.name = name;
+		this.price= price;
+		this.itemCode=itemCode;
+		
+	}
+	public void setName(String name){
+		this.name = name;	
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public void setItemCode(double itemCode) {
+		this.itemCode = (long) itemCode;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public double getPrice() {
+		return price;
+	}
+
+	public long getItemCode() {
+		return itemCode;
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,37 @@
+package eg1;
+
+public class CastingDemo {
+	public static void main(String[] args) {
+		/* 
+		 * 
+		 * Type Casting - Type casting is the way using which you can convert one primitive type to another
+		 * In which there are 2 types
+		 * 1)implicit Casting - which is done by the java complier by default, when we are trying to assign
+		 * 						a data type which smaller in size to the larger in size.
+		 * 2)Explicit Casting - which should be taken care by the developers, where when we try to assign any larger
+		 * 						data type to the smaller, we have to explicitly say to which smaller we wish to convert it  to.
+		 *
+		 */
+		int x = 100; //4 bytes
+		long l =x;	//implicit
+		System.out.println("l = " + l);
+		
+		double d = x;
+		System.out.println("d = "+ d);
+		
+		
+		float f=l; //implicit (decimal's are larger than the normal values)
+		System.out.println("f= "+f);
+		
+		char c = 'M';
+		System.out.println("c : "+ c);
+		x=c; //implicit
+		System.out.println("x : "+x);
+		
+		//Explicit Casting
+		int d1=99;
+		char z=(char)d1;
+		
+	}
+
+}

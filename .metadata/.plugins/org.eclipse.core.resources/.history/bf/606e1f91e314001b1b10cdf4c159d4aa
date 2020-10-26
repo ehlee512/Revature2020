@@ -1,0 +1,19 @@
+package eg1;
+
+import eg1.printClass.innerClass;
+import eg2.differntPackage;
+
+public class main {
+	public static void main(String[] args) {
+		printClass a = new printClass();
+		a.print();
+
+		innerClass b = a.new innerClass(); // initializing inner class
+		b.innerPrint();	// accessing inner class
+
+		differntPackage d = new differntPackage();
+		eg2.differntPackage.innerClass e = d.new innerClass();
+		d.printHello();
+	}
+
+}

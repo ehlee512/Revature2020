@@ -1,0 +1,31 @@
+package p1;
+
+import java.util.Arrays;
+
+public class checkPrimeNumber {
+	public static void main(String[] args) {
+
+		int num = 6;
+
+		int list[] = new int[100];
+		for (int x = 0; x < 100; x++)
+			list[x] = x;
+
+		for (int y = 0; y < 100; y++) {
+			
+			int count = 0;
+			for (int x = 1; x < (list[y]); x++) {
+				if ((list[y] % x) == 0)
+					count++;
+			}
+			if (count == 2)
+				System.out.println(list[y] + " is a prime number");
+//			else
+//				System.out.println("not a prime nubmer");
+
+		}
+
+//		System.out.println(Arrays.toString(list));
+	}
+
+}
